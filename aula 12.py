@@ -134,7 +134,7 @@ else:
 #IMC = peso / altura x altura
 
 peso = float(input('Insira o seu peso pelado (kg) '))
-alt = float(input('insira a porra da sua altura seu gordo '))
+alt = float(input('Insira a porra da sua altura seu gordo '))
 imc = float(peso / alt**2)
 ideal = (alt**2 * 25) 
 print('seu IMC é: {}'.format(round(imc, 4)))
