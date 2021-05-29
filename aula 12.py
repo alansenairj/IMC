@@ -132,7 +132,7 @@ else:
 #43
 
 #IMC = peso / altura x altura
-
+'''
 peso = float(input('Insira o seu peso pelado (kg) '))
 alt = float(input('Insira a porra da sua altura seu gordo '))
 imc = float(peso / alt**2)
@@ -150,13 +150,24 @@ elif imc >=25 and imc<=30:
 elif imc <=30 and imc<=40:
         print('obesidade porra! seu viado')
 elif imc >= 40:
-        print('mórbido, emgrace seu filha da puta')
+        print('mórbido, emgrace seu filha da puta')'''
+
+#44
+
+preco = float(input(' Qual é o preço do produto, seu canalha? '))
+preco2 = int(input('digite a forma de pagamento para:\n1 - grana/cheque \n2 - cartão à vista \n3- cartão em 2x \n4 - cartão em 3x \n Qual a sua opção, seu fudido? '))
+if preco2 == 1:
+    print(float(preco -(preco*0.1)))
+elif preco2 == 2:
+    print(float(preco- (preco*0.05)))
+elif preco2 == 3:
+    print(float(preco))
+elif preco2 == 4:
+    print(float(preco + (preco*0.2)))
+
+#print('a sua compra de R${:.2f} vai custar R${:.2f} no final, valeu?  '.format(float(preco,total)))
 
 
-
-#25 = x /1.79**2
-
- 
 
 
 
