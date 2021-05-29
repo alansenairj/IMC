@@ -131,9 +131,9 @@ else:
 
 #43
 
-#IMC = peso / altura
+#IMC = peso / altura x altura
 
-peso = float(input('Insira o seu peso pelado '))
+peso = float(input('Insira o seu peso pelado (kg) '))
 alt = float(input('insira a porra da sua altura seu gordo '))
 imc = float(peso / alt**2)
 ideal = (alt**2 * 25) 
@@ -142,9 +142,9 @@ print('seu peso ideal {:.1f}'.format(round(ideal, 3)))
 
 
 if imc < float(18.5):
-    print('Abaixo do peso')
+    print('Abaixo do peso, porra')
 elif imc >= 18.5 and imc<= 25: 
-    print('peso ideal')
+    print('peso ideal cara!')
 elif imc >=25 and imc<=30:
         print("sobrepeso porra")    
 elif imc <=30 and imc<=40:
